@@ -15,6 +15,19 @@
 		E715126A1EBCAF7800C5E8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71512681EBCAF7800C5E8C1 /* LaunchScreen.storyboard */; };
 		E71512751EBCAF7900C5E8C1 /* MeekaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71512741EBCAF7900C5E8C1 /* MeekaTests.swift */; };
 		E71512801EBCAF7900C5E8C1 /* MeekaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715127F1EBCAF7900C5E8C1 /* MeekaUITests.swift */; };
+		E76604571EF85642007069BB /* lang_en_us.strings in Resources */ = {isa = PBXBuildFile; fileRef = E76604561EF85642007069BB /* lang_en_us.strings */; };
+		E76604581EF85642007069BB /* lang_en_us.strings in Resources */ = {isa = PBXBuildFile; fileRef = E76604561EF85642007069BB /* lang_en_us.strings */; };
+		E76604591EF85642007069BB /* lang_en_us.strings in Resources */ = {isa = PBXBuildFile; fileRef = E76604561EF85642007069BB /* lang_en_us.strings */; };
+		E76604611EF95435007069BB /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76604601EF95435007069BB /* NotificationCenter.framework */; };
+		E76604661EF95435007069BB /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604651EF95435007069BB /* TodayViewController.swift */; };
+		E76604691EF95435007069BB /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76604671EF95435007069BB /* TodayViewController.xib */; };
+		E766046D1EF95435007069BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E766046B1EF95435007069BB /* InfoPlist.strings */; };
+		E76604721EF9561A007069BB /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604711EF9561A007069BB /* Quest.swift */; };
+		E76604731EF9561A007069BB /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604711EF9561A007069BB /* Quest.swift */; };
+		E76604741EF9561A007069BB /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604711EF9561A007069BB /* Quest.swift */; };
+		E76604761EF95630007069BB /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604751EF95630007069BB /* Meerkat.swift */; };
+		E76604771EF95630007069BB /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604751EF95630007069BB /* Meerkat.swift */; };
+		E76604781EF95630007069BB /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604751EF95630007069BB /* Meerkat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,16 @@
 		E715127B1EBCAF7900C5E8C1 /* MeekaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeekaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E715127F1EBCAF7900C5E8C1 /* MeekaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeekaUITests.swift; sourceTree = "<group>"; };
 		E71512811EBCAF7900C5E8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76604561EF85642007069BB /* lang_en_us.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = lang_en_us.strings; sourceTree = "<group>"; };
+		E766045E1EF95435007069BB /* MeekaToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MeekaToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76604601EF95435007069BB /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		E76604641EF95435007069BB /* MeekaToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeekaToday.entitlements; sourceTree = "<group>"; };
+		E76604651EF95435007069BB /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		E76604681EF95435007069BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		E766046A1EF95435007069BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E766046C1EF95435007069BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E76604711EF9561A007069BB /* Quest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		E76604751EF95630007069BB /* Meerkat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meerkat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +96,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E766045B1EF95434007069BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76604611EF95435007069BB /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +113,8 @@
 				E715125C1EBCAF7800C5E8C1 /* Meeka */,
 				E71512731EBCAF7900C5E8C1 /* MeekaTests */,
 				E715127E1EBCAF7900C5E8C1 /* MeekaUITests */,
+				E76604621EF95435007069BB /* MeekaToday */,
+				E766045F1EF95435007069BB /* Frameworks */,
 				E715125B1EBCAF7800C5E8C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +125,7 @@
 				E715125A1EBCAF7800C5E8C1 /* Meeka.app */,
 				E71512701EBCAF7900C5E8C1 /* MeekaTests.xctest */,
 				E715127B1EBCAF7900C5E8C1 /* MeekaUITests.xctest */,
+				E766045E1EF95435007069BB /* MeekaToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +140,9 @@
 				E71512661EBCAF7800C5E8C1 /* Assets.xcassets */,
 				E71512681EBCAF7800C5E8C1 /* LaunchScreen.storyboard */,
 				E715126B1EBCAF7800C5E8C1 /* Info.plist */,
+				E76604561EF85642007069BB /* lang_en_us.strings */,
+				E76604711EF9561A007069BB /* Quest.swift */,
+				E76604751EF95630007069BB /* Meerkat.swift */,
 			);
 			path = Meeka;
 			sourceTree = "<group>";
@@ -126,6 +163,34 @@
 				E71512811EBCAF7900C5E8C1 /* Info.plist */,
 			);
 			path = MeekaUITests;
+			sourceTree = "<group>";
+		};
+		E766045F1EF95435007069BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76604601EF95435007069BB /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E76604621EF95435007069BB /* MeekaToday */ = {
+			isa = PBXGroup;
+			children = (
+				E76604651EF95435007069BB /* TodayViewController.swift */,
+				E76604671EF95435007069BB /* TodayViewController.xib */,
+				E766046A1EF95435007069BB /* Info.plist */,
+				E766046B1EF95435007069BB /* InfoPlist.strings */,
+				E76604631EF95435007069BB /* Supporting Files */,
+			);
+			path = MeekaToday;
+			sourceTree = "<group>";
+		};
+		E76604631EF95435007069BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E76604641EF95435007069BB /* MeekaToday.entitlements */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +249,23 @@
 			productReference = E715127B1EBCAF7900C5E8C1 /* MeekaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E766045D1EF95434007069BB /* MeekaToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E766046E1EF95435007069BB /* Build configuration list for PBXNativeTarget "MeekaToday" */;
+			buildPhases = (
+				E766045A1EF95434007069BB /* Sources */,
+				E766045B1EF95434007069BB /* Frameworks */,
+				E766045C1EF95434007069BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeekaToday;
+			productName = MeekaToday;
+			productReference = E766045E1EF95435007069BB /* MeekaToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +290,11 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = E71512591EBCAF7700C5E8C1;
 					};
+					E766045D1EF95434007069BB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B7H77UP88G;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E71512551EBCAF7700C5E8C1 /* Build configuration list for PBXProject "Meeka" */;
@@ -226,6 +313,7 @@
 				E71512591EBCAF7700C5E8C1 /* Meeka */,
 				E715126F1EBCAF7900C5E8C1 /* MeekaTests */,
 				E715127A1EBCAF7900C5E8C1 /* MeekaUITests */,
+				E766045D1EF95434007069BB /* MeekaToday */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E715126A1EBCAF7800C5E8C1 /* LaunchScreen.storyboard in Resources */,
+				E76604571EF85642007069BB /* lang_en_us.strings in Resources */,
 				E71512671EBCAF7800C5E8C1 /* Assets.xcassets in Resources */,
 				E71512651EBCAF7800C5E8C1 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76604581EF85642007069BB /* lang_en_us.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +342,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76604591EF85642007069BB /* lang_en_us.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E766045C1EF95434007069BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76604691EF95435007069BB /* TodayViewController.xib in Resources */,
+				E766046D1EF95435007069BB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76604761EF95630007069BB /* Meerkat.swift in Sources */,
+				E76604721EF9561A007069BB /* Quest.swift in Sources */,
 				E71512621EBCAF7800C5E8C1 /* SecondViewController.swift in Sources */,
 				E715125E1EBCAF7800C5E8C1 /* AppDelegate.swift in Sources */,
 				E71512601EBCAF7800C5E8C1 /* FirstViewController.swift in Sources */,
@@ -272,6 +374,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76604771EF95630007069BB /* Meerkat.swift in Sources */,
+				E76604731EF9561A007069BB /* Quest.swift in Sources */,
 				E71512751EBCAF7900C5E8C1 /* MeekaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76604781EF95630007069BB /* Meerkat.swift in Sources */,
+				E76604741EF9561A007069BB /* Quest.swift in Sources */,
 				E71512801EBCAF7900C5E8C1 /* MeekaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E766045A1EF95434007069BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76604661EF95435007069BB /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +428,22 @@
 				E71512691EBCAF7800C5E8C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E76604671EF95435007069BB /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76604681EF95435007069BB /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		E766046B1EF95435007069BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E766046C1EF95435007069BB /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +618,42 @@
 			};
 			name = Release;
 		};
+		E766046F1EF95435007069BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MeekaToday/MeekaToday.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7H77UP88G;
+				INFOPLIST_FILE = MeekaToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = mm.MeekaToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E76604701EF95435007069BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MeekaToday/MeekaToday.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B7H77UP88G;
+				INFOPLIST_FILE = MeekaToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = mm.MeekaToday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -507,6 +673,7 @@
 				E71512861EBCAF7900C5E8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E71512871EBCAF7900C5E8C1 /* Build configuration list for PBXNativeTarget "MeekaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,12 +682,22 @@
 				E71512891EBCAF7900C5E8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E715128A1EBCAF7900C5E8C1 /* Build configuration list for PBXNativeTarget "MeekaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E715128B1EBCAF7900C5E8C1 /* Debug */,
 				E715128C1EBCAF7900C5E8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E766046E1EF95435007069BB /* Build configuration list for PBXNativeTarget "MeekaToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E766046F1EF95435007069BB /* Debug */,
+				E76604701EF95435007069BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
