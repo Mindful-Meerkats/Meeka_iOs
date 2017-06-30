@@ -9,8 +9,9 @@
 import Foundation
 import CoreData
 
-struct PropertyKey {
-        static let
+struct MeerkatPropertyKey {
+    static let name = "name"
+    static let id   = "id"
 }
 
 class Meerkat: NSObject, NSCoding{
@@ -19,12 +20,10 @@ class Meerkat: NSObject, NSCoding{
     var id:   String
     
     
-    
-    
     // Serialization Part
     
     func encode(with aCoder: NSCoder) {
-        <#code#>
+        
     }
     
     init?() {
