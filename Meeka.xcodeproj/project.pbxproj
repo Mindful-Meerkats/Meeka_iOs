@@ -25,6 +25,9 @@
 		E76604761EF95630007069BB /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604751EF95630007069BB /* Meerkat.swift */; };
 		E76604771EF95630007069BB /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604751EF95630007069BB /* Meerkat.swift */; };
 		E76604781EF95630007069BB /* Meerkat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76604751EF95630007069BB /* Meerkat.swift */; };
+		E77C31581F2E2CDF002A383C /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C31571F2E2CDF002A383C /* Points.swift */; };
+		E77C31591F2E2CDF002A383C /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C31571F2E2CDF002A383C /* Points.swift */; };
+		E77C315A1F2E2F8A002A383C /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77C31571F2E2CDF002A383C /* Points.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,7 @@
 		E766046C1EF95435007069BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E76604711EF9561A007069BB /* Quest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
 		E76604751EF95630007069BB /* Meerkat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meerkat.swift; sourceTree = "<group>"; };
+		E77C31571F2E2CDF002A383C /* Points.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 		F5846EE1000860194D5CDF96 /* Pods-Meeka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meeka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Meeka/Pods-Meeka.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +184,7 @@
 			children = (
 				E76604711EF9561A007069BB /* Quest.swift */,
 				E76604751EF95630007069BB /* Meerkat.swift */,
+				E77C31571F2E2CDF002A383C /* Points.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -442,6 +447,7 @@
 				E76604761EF95630007069BB /* Meerkat.swift in Sources */,
 				E76604721EF9561A007069BB /* Quest.swift in Sources */,
 				E715125E1EBCAF7800C5E8C1 /* AppDelegate.swift in Sources */,
+				E77C31581F2E2CDF002A383C /* Points.swift in Sources */,
 				E73F515D1F05755500923ACE /* UIAvatarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77C31591F2E2CDF002A383C /* Points.swift in Sources */,
 				E76604771EF95630007069BB /* Meerkat.swift in Sources */,
 				E76604731EF9561A007069BB /* Quest.swift in Sources */,
 				E71512751EBCAF7900C5E8C1 /* MeekaTests.swift in Sources */,
@@ -460,6 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E77C315A1F2E2F8A002A383C /* Points.swift in Sources */,
 				E76604781EF95630007069BB /* Meerkat.swift in Sources */,
 				E76604741EF9561A007069BB /* Quest.swift in Sources */,
 				E71512801EBCAF7900C5E8C1 /* MeekaUITests.swift in Sources */,
